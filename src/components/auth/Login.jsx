@@ -39,9 +39,9 @@ const Login = () => {
         <Form.Item>
           <Flex justify="space-between" align="center">
             <Form.Item name="remember" valuePropName="checked" noStyle>
-              <Checkbox>Remember me</Checkbox>
+              <Checkbox style={{color:"white"}}>Remember me</Checkbox>
             </Form.Item>
-            <a href="">Forgot password</a>
+            <a href="" className="f">Forgot password</a>
           </Flex>
         </Form.Item>
 
@@ -63,7 +63,7 @@ export default Login;
 const LoginStyle = styled.div`
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.531), #000), url(${BG});
+   background: linear-gradient(to bottom, rgba(116, 99, 99, 0.829), #000), url(${BG});
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,10 +72,14 @@ const LoginStyle = styled.div`
   .Form {
     width: 25%;
     min-height: max-content;
-    background-color: #fff;
+    background-color: black;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
+    color:white;
+    .f{
+      color: red;
+    }
     Button {
       background: red;
       height: 3rem;

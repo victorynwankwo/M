@@ -1,47 +1,55 @@
-export const TopTrending =[
-    {
-      "title": "War of the Worlds",
-      "image": "https://image.tmdb.org/t/p/w300//yvirUYrva23IudARHn3mMGVxWqM.jpg",
-      "year": 2025,
-      "rating": 4.6,
-      "genre": "Action"
-    },
-    {
-      "title": "The Naked Gun",
-      "image": "https://image.tmdb.org/t/p/original//5Z9tkiIDZ6u49VUeY9Fm3PuSxKT.jpg",
-      "year": 2025,
-      "rating": 7.1,
-      "genre": "Action"
-    },
-    {
-      "title": "Chief of War",
-      "image": "https://image.tmdb.org/t/p/original//8Mckh3qJRTzXTQNZtpb133RHmO4.jpg",
-      "year": 2025,
-      "rating": 6.7,
-      "genre": "Action"
-    },
-    {
-      "title": "My Oxford Year",
-      "image": "https://image.tmdb.org/t/p/original//jrhXbIOFingzdLjkccjg9vZnqIp.jpg",
-      "year": 2025,
-      "rating": 7.4,
-      "genre": "Romance"
-    },
-    {
-      "title": "xXx",
-      "image": "https://image.tmdb.org/t/p/original//xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
-      "year": 2002,
-      "rating": 6.0,
-      "genre": "Action"
-    },
-    {
-      "title": "Superman",
-      "image": "https://image.tmdb.org/t/p/original//ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg",
-      "year": 2025,
-      "rating": 7.6,
-      "genre": "Action"
-    },
-  ];
+export const TopTrending = [
+  {
+    "title": "War of the Worlds",
+    "image": "https://image.tmdb.org/t/p/w300//yvirUYrva23IudARHn3mMGVxWqM.jpg",
+    "year": 2025,
+    "rating": 4.6,
+    "genre": "Action",
+    "plot": "When alien invaders strike Earth, a father struggles to protect his family while humanity faces extinction."
+  },
+  {
+    "title": "The Naked Gun",
+    "image": "https://image.tmdb.org/t/p/original//5Z9tkiIDZ6u49VUeY9Fm3PuSxKT.jpg",
+    "year": 2025,
+    "rating": 7.1,
+    "genre": "Action",
+    "plot": "Detective Frank Drebin stumbles through chaos to stop an assassination plot, mixing comedy and slapstick mayhem."
+  },
+  {
+    "title": "Chief of War",
+    "image": "https://image.tmdb.org/t/p/original//ehumsuIBbgAe1hg343oszCLrAfI.jpg",
+    "year": 2025,
+    "rating": 5.5,
+    "genre": "Action",
+    "plot": "A Hawaiian warrior rises to unite tribes against invaders, testing loyalty, tradition, and destiny."
+  },
+  {
+    "title": "My Oxford Year",
+    "image": "https://image.tmdb.org/t/p/original//AsFMMhzYvjrktS8wlLBrjVR3Hft.jpg",
+    "year": 2025,
+    "rating": 8.1,
+    "genre": "Action",
+    "plot": "An ambitious American student finds unexpected romance at Oxford, forcing her to choose between love and career."
+  },
+  {
+    "title": "xXx",
+    "image": "https://image.tmdb.org/t/p/original//xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
+    "year": 2025,
+    "rating": 4.6,
+    "genre": "Action",
+    "plot": "Xander Cage, an extreme sports rebel, is recruited for a mission to infiltrate a global crime syndicate."
+  },
+  {
+    "title": "Superman",
+    "image": "https://image.tmdb.org/t/p/original//t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "year": 2025,
+    "rating": 7.9,
+    "genre": "Action",
+    "plot": "Clark Kent embraces his destiny as Superman, protecting Earth while battling villains and his human struggles."
+  }
+]
+  
+
   const TopRating= [
     {
       "title": "12 Angry Men",

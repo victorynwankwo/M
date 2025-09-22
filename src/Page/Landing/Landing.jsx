@@ -15,7 +15,7 @@ const Landing = () => {
         <section className="Hero">
           <article className="Hero_Wraper">
             <h2>
-              Unlimited <span>movies</span>, TV <br />
+              VORTEX Unlimited <span>movies</span>, TV <br />
               shows, and more
             </h2>
             <span>Starts at ₦1,500. Cancel anytime.</span>
@@ -42,7 +42,7 @@ export default Landing;
 const LandingStyle = styled.div`
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.531), #000), url(${BG});
+  background: linear-gradient(to bottom, rgba(116, 99, 99, 0.829), #000), url(${BG});
   display: flex;
   flex-direction: column;
   align-items: center;
